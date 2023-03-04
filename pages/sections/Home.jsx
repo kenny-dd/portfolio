@@ -10,7 +10,7 @@ const Home = () => {
       >
         <div className="flex flex-col uppercase absolute items-center font-light">
           <h1 className="text-6xl	text-white tracking-0.08 pb-8 font-light">
-            Hi, I'm Kenny
+            Hi, I&apos;m Kenny
           </h1>
           <p className="capitalize text-white pb-8 font-body">
             Software Engineer &amp; Web Developer
