@@ -2,10 +2,10 @@ import React, { lazy } from "react";
 import Image from "next/Image";
 import benchPic from "../../public/assets/bench-photo.webp";
 import { BsCpu, BsJoystick, BsKeyboard } from "react-icons/bs";
+import Summary from "./components/Summary";
 
 const About = () => {
   const iconFormat = "w-12 h-12 mb-2";
-  const iconLayout = "flex flex-col items-center align-top px-8";
 
   const summary = [
     {
@@ -75,14 +75,9 @@ const About = () => {
             </h3>
 
             <div className="flex flex-row justify-between">
-              {summary.map(({ id, iconImg, iconLabel }) => (
-                <div className={iconLayout}>
-                  <div className="inline-block">{iconImg}</div>
-                  <h5 key={id} className="text-iconLabel font-250">
-                    {iconLabel}
-                  </h5>
-                </div>
-              ))}
+              {summary.map((icon) => {
+                return <Summary key={icon.id} icon={icon} />;
+              })}
             </div>
           </div>
         </div>

@@ -3,7 +3,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { BsGithub, BsTwitter, BsInstagram, BsSpotify } from "react-icons/bs";
 import { BiCopyright } from "react-icons/bi";
 import Icons from "./components/Icons";
-import { Linkedin } from "react-bootstrap-icons";
 
 function Socials() {
   const socials = [
