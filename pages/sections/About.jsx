@@ -1,4 +1,5 @@
-import React from "react";
+import React, { lazy } from "react";
+import Image from "next/Image";
 import benchPic from "../../public/assets/bench-photo.webp";
 import { BsCpu, BsJoystick, BsKeyboard } from "react-icons/bs";
 
@@ -30,15 +31,19 @@ const About = () => {
       className="max-w-screen-lg py-68 mx-auto flex flex-col justify-center w-full h-full align-center"
     >
       <div name="body-text">
-        <h1 className="flex justify-center items-center uppercase text-title font-250 p-8 tracking-wider">
+        <h1 className="flex justify-center items-center text-center uppercase text-title font-250 p-8 tracking-wider">
           A Little Bit About Me
         </h1>
 
         <div className="flex justify-center items-center">
-          <img
+          <Image
             src={benchPic.src}
             alt="Photo Icon"
             className="w-44 h-44 rounded-full"
+            width={176}
+            height={176}
+            unoptimized={true}
+            loader={lazy}
           />
         </div>
 

@@ -1,5 +1,6 @@
-import React from "react";
+import React, { lazy } from "react";
 import oduLogo from "../../public/assets/odu.webp";
+import Image from "next/Image";
 
 function Experience() {
   return (
@@ -11,7 +12,7 @@ function Experience() {
       <div className="flex flex-row justify-around sm:flex-wrap xs:flex-wrap">
         <div>
           <h1
-            className="text-technologies uppercase text-lg font-light tracking-1.5"
+            className="text-technologies uppercase text-center text-lg font-light tracking-1.5"
             id="skills"
           >
             Some technologies I've worked with:
@@ -200,17 +201,20 @@ function Experience() {
 
         <div className="flex flex-col items-center">
           <p
-            className="text-technologies uppercase text-lg font-light tracking-1.5 pb-4 m-0"
+            className="text-technologies uppercase text-center text-lg font-light tracking-1.5 pb-4 m-0"
             id="skills"
           >
             Where I've Worked
           </p>
           <a href="https://ww1.odu.edu/eng" target="_blank">
-            <img
-              className="w-64 h-64 max-w-256"
+            <Image
+              className="max-w-256"
               src={oduLogo.src}
-              fill="currentColor"
               alt="ODU Batten College of Engineering"
+              width="256"
+              height="256"
+              unoptimized={true}
+              loader={lazy}
             />
           </a>
         </div>
