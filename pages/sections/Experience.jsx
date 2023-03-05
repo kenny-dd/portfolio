@@ -15,7 +15,7 @@ function Experience() {
             className="text-technologies uppercase text-center text-lg font-light tracking-1.5"
             id="skills"
           >
-            {`Some technologies I've worked with:`}
+            Some technologies I've worked with:
           </h1>
           <div className="flex justify-between">
             <div className="flex flex-col" data-aos="fade-right">

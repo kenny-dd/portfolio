@@ -2,7 +2,7 @@ import React, { lazy } from "react";
 import Image from "next/Image";
 import benchPic from "../../public/assets/bench-photo.webp";
 import { BsCpu, BsJoystick, BsKeyboard } from "react-icons/bs";
-import Summary from "./components/Summary";
+import Summary from "../../components/Summary";
 
 const About = () => {
   const iconFormat = "w-12 h-12 mb-2";
