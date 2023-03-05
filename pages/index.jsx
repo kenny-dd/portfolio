@@ -26,7 +26,7 @@ export class index extends Component {
             name="viewport"
             content="initial-scale=1.0, width=device-width"
           />
-          <meta name="description" content="Web site created using NextJS" />
+          <meta name="description" content="Kenny Dang's Personal Portfolio" />
           <link rel="apple-touch-icon" href="/logo192.png" />
           <link rel="manifest" href="/manifest.json" />
         </Head>
