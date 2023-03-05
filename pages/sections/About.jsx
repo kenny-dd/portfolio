@@ -1,5 +1,5 @@
 import React, { lazy } from "react";
-import Image from "next/Image";
+import Image from "next/image";
 import benchPic from "../../public/assets/bench-photo.webp";
 import { BsCpu, BsJoystick, BsKeyboard } from "react-icons/bs";
 import Summary from "../../components/Summary";

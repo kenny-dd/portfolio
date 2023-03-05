@@ -1,6 +1,6 @@
 import React, { lazy } from "react";
 import oduLogo from "../../public/assets/odu.webp";
-import Image from "next/Image";
+import Image from "next/image";
 
 function Experience() {
   return (
