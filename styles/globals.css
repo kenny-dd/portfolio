@@ -131,7 +131,7 @@ a {
       #00000040,
       #00000030
     ),
-    url("./public/assets/landscape.webp");
+    url("../public/assets/landscape.webp");
 }
 
 #hero-background {
@@ -143,5 +143,5 @@ a {
       #00000080,
       #00000066
     ),
-    url("./public/assets/mountain.webp");
+    url("../public/assets/mountain.webp");
 }
