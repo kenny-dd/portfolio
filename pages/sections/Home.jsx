@@ -15,7 +15,7 @@ const Home = () => {
           <p className="capitalize text-white pb-8 font-body">
             Software Engineer &amp; Web Developer
           </p>
-          <a name="about" href="#about">
+          <a name="arrow" href="#about">
             <FaChevronDown className="text-white font-extrabold" />
           </a>
         </div>
