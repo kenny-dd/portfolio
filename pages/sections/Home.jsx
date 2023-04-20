@@ -6,9 +6,9 @@ const Home = () => {
     <section name="home">
       <div
         id="hero-background"
-        className="flex items-center justify-center h-9xl bg-fixed bg-center bg-cover pt-4"
+        className="flex items-center align-center justify-center h-9xl bg-fixed bg-center bg-cover pt-4"
       >
-        <div className="flex flex-col uppercase absolute items-center font-light">
+        <div className="flex flex-col uppercase absolute justify-center text-center items-center font-light">
           <h1 className="text-6xl	text-white tracking-0.08 pb-8 font-light">
             Hi I&apos;m Kenny
           </h1>
