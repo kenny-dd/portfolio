@@ -85,9 +85,13 @@ a {
   border: 1px solid #000000;
   fill: #000000;
 }
-.bootstrap-svg:hover {
-  border: 1px solid #7952b3;
-  fill: #7952b3;
+.prisma-svg:hover {
+  border: 1px solid #615FFF;
+  fill: #615FFF;
+}
+.graphql-svg:hover {
+  border: 1px solid #FF4081;
+  fill: #FF4081;
 }
 .nodejs-svg:hover {
   border: 1px solid #339933;
