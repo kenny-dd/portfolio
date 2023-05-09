@@ -28,7 +28,6 @@ export class index extends Component {
           />
           <meta name="description" content="Kenny Dang's Personal Portfolio" />
           <link rel="apple-touch-icon" href="/logo192.png" />
-          <link rel="manifest" href="/manifest.json" />
         </Head>
 
         <Home />

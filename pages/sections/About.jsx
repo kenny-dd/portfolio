@@ -52,12 +52,11 @@ const About = () => {
           className="flex flex-col justify-center items-center text-center my-10 mx-48 leading-7 text-base font-body"
         >
           <text>
-            Hello! My name is Kenny Dang, and I am currently a fourth year
-            undergraduate student at Old Dominion University pursuing a degree
-            in computer science. I am currently seeking a full-time software
-            engineering position after graduation in Spring 2023. In the future,
-            I hope to be a well-rounded software developer that provides real
-            world solutions.
+            Hello! My name is Kenny Dang, and I am a recent graduate from Old
+            Dominion University who pursued a degree in computer science. I am
+            an incoming software engineer at Swisslog. I am excited to begin my
+            journey as a software engineer and hope to grow personally
+            and professionally.
           </text>
           <br />
           <text className="pb-0">
