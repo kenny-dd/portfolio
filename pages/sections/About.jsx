@@ -30,7 +30,10 @@ const About = () => {
       name="about"
       className="max-w-screen-lg py-68 mx-auto flex flex-col justify-center w-full h-full align-center"
     >
-      <div name="body-text" className="flex flex-col justify-center items-center">
+      <div
+        name="body-text"
+        className="flex flex-col justify-center items-center"
+      >
         <h1 className="flex justify-center items-center text-center uppercase text-title font-250 p-8 tracking-wider">
           A Little Bit About Me
         </h1>
@@ -52,12 +55,11 @@ const About = () => {
           className="flex flex-col justify-center text-center align-center my-10 leading-7 mx-0 text-base font-body max-w-[620px]"
         >
           <text>
-            Hello! My name is Kenny Dang, and I am currently a fourth year
-            undergraduate student at Old Dominion University pursuing a degree
-            in computer science. I am currently seeking a full-time software
-            engineering position after graduation in Spring 2023. In the future,
-            I hope to be a well-rounded software developer that provides real
-            world solutions.
+            Hello! My name is Kenny Dang, and I recently graduated from Old
+            Dominion University with a Bachelor of Science in Computer Science.
+            I am currently working as a full-time software engineer at Swisslog.
+            I am always looking for ways to improve my technical skills by
+            working on personal projects.
           </text>
           <br />
           <text className="pb-0">
