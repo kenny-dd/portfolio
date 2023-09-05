@@ -55,10 +55,22 @@ const About = () => {
           className="flex flex-col justify-center text-center align-center my-10 leading-7 mx-0 text-base font-body max-w-[620px]"
         >
           <text>
-            Hello! My name is Kenny Dang, and I recently graduated from Old
-            Dominion University with a Bachelor of Science in Computer Science.
-            I am currently working as a full-time software engineer at Swisslog.
-            I am always looking for ways to improve my technical skills by
+            Hello! My name is Kenny Dang, and I recently graduated from{" "}
+            <a
+              href="https://www.odu.edu/"
+              className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
+            >
+              Old Dominion University
+            </a>{" "}
+            with a Bachelor of Science in Computer Science. I am currently
+            working as a full-time software engineer at{" "}
+            <a
+              href="https://www.swisslog.com/"
+              className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
+            >
+              Swisslog
+            </a>
+            . I am always looking for ways to improve my technical skills by
             working on personal projects.
           </text>
           <br />
