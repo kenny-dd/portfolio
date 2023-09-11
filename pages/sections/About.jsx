@@ -59,6 +59,7 @@ const About = () => {
             <a
               href="https://www.odu.edu/"
               className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
+              target="_blank"
             >
               Old Dominion University
             </a>{" "}
@@ -67,6 +68,7 @@ const About = () => {
             <a
               href="https://www.swisslog.com/"
               className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
+              target="_blank"
             >
               Swisslog
             </a>
