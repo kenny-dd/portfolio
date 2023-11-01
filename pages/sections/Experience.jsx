@@ -218,6 +218,7 @@ function Experience() {
             <Image
               className="max-w-256 pb-4"
               src={swisslogLogo.src}
+              alt="Swisslog Logo"
               width="236"
               height="256"
               unoptimized={true}
@@ -228,7 +229,7 @@ function Experience() {
             <Image
               className="max-w-256"
               src={oduLogo.src}
-              alt="ODU Batten College of Engineering"
+              alt="ODU Batten College of Engineering Logo"
               width="236"
               height="236"
               unoptimized={true}
