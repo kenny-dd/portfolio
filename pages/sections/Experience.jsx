@@ -1,18 +1,19 @@
 import React, { lazy } from "react";
 import oduLogo from "../../public/assets/odu.webp";
+import swisslogLogo from "../../public/assets/swisslog.webp";
 import Image from "next/image";
 
 function Experience() {
   return (
     <section name="Experience" className="bg-summaryGray py-16 px-20">
-      <div className="flex justify-center items-center uppercase text-title font-250 pb-8 tracking-wider">
+      <div className="flex justify-center items-center uppercase text-title font-250 pb-10 tracking-wider">
         Experience
       </div>
 
       <div className="flex flex-row justify-around sm:flex-wrap xs:flex-wrap">
         <div>
           <h1
-            className="text-technologies uppercase text-center text-lg font-light tracking-1.5"
+            className="text-technologies uppercase text-center text-lg font-light tracking-1.5 pb-7"
             id="skills"
           >
             Some technologies I&apos;ve worked with:
@@ -208,18 +209,28 @@ function Experience() {
 
         <div className="flex flex-col items-center">
           <p
-            className="text-technologies uppercase text-center text-lg font-light tracking-1.5 pb-4 m-0"
+            className="text-technologies uppercase text-center text-lg font-light tracking-1.5 pb-8 m-0"
             id="skills"
           >
             Where I&apos;ve Worked
           </p>
+          <a href="https://www.swisslog.com" target="_blank">
+            <Image
+              className="max-w-256 pb-4"
+              src={swisslogLogo.src}
+              width="236"
+              height="256"
+              unoptimized={true}
+              loader={lazy}
+            />
+          </a>
           <a href="https://ww1.odu.edu/eng" target="_blank">
             <Image
               className="max-w-256"
               src={oduLogo.src}
               alt="ODU Batten College of Engineering"
-              width="256"
-              height="256"
+              width="236"
+              height="236"
               unoptimized={true}
               loader={lazy}
             />
