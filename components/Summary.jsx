@@ -6,7 +6,7 @@ function Summary({ icon }) {
   return (
     <div className={iconLayout}>
       <div className="inline-block">{icon.iconImg}</div>
-      <h5 className="text-iconLabel font-250">{icon.iconLabel}</h5>
+      <p className="text-iconLabel font-250">{icon.iconLabel}</p>
     </div>
   );
 }
