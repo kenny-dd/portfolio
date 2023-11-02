@@ -6,7 +6,7 @@ import Image from "next/image";
 function Experience() {
   return (
     <section name="Experience" className="bg-summaryGray py-16 px-20">
-      <div className="flex justify-center items-center uppercase text-title font-250 pb-10 tracking-wider">
+      <div className="flex justify-center items-center uppercase text-title font-250 pb-10 tracking-wider text-center">
         Experience
       </div>
 
@@ -18,7 +18,7 @@ function Experience() {
           >
             Some technologies I&apos;ve worked with:
           </h1>
-          <div className="flex justify-between">
+          <div className="flex justify-between flex-wrap">
             <div className="flex flex-col" data-aos="fade-right">
               <div className="skills-front">
                 <div className="skills-grid">

@@ -1,7 +1,7 @@
 import React from "react";
 
 function Summary({ icon }) {
-  const iconLayout = "flex flex-col items-center align-top px-8 flex-wrap";
+  const iconLayout = "flex flex-col items-center align-top px-8 text-center";
 
   return (
     <div className={iconLayout}>
